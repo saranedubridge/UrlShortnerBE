@@ -11,7 +11,7 @@ let transporter = nodemailer.createTransport({
 });
 
 const sendActivationEmail = (userEmail, activationToken) => {
-    const activationUrl = `https://quiet-scone-9288cf.netlify.app/activate/${activationToken}`;
+    const activationUrl = `https://peppy-wisp-87721e.netlify.app/activate/${activationToken}`;
 
     let mailOptions = {
         from: 'saranraj.1803164@srec.ac.in', 
