@@ -37,7 +37,7 @@ passwordResetRouter.post('/',async(request,response)=>{
            await user.save();
 
         //    send email with the token
-        const resetUrl = `https://peppy-wisp-87721e.netlify.app/reset-password?token=${token}`;
+        const resetUrl = `https://remarkable-lebkuchen-755224.netlify.app/reset-password?token=${token}`;
 
 
     // configure Nodemailer with you email service
