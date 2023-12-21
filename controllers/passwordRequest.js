@@ -1,7 +1,6 @@
 const passwordResetRouter=require('express').Router();
 const User = require('../models/user');
 const crypto = require('crypto');
-const bcrypt = require('bcrypt');
 const nodemailer = require('nodemailer');
 
 
